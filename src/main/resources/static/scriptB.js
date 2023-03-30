@@ -5,6 +5,10 @@ function makeRequestB(){
             alert('Data: ' + this.responseText + '\nStatus: ' + this.status);
         }
     };
+    let a = 100;
+    while  (a  > 0){
+        a-=1;
+    }
     xhr.open('GET', "/b");
     xhr.send();
 }
