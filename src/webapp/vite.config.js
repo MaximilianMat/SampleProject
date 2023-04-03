@@ -9,7 +9,7 @@ export default defineConfig({
             '/b': 'http://localhost:8090'
         },
         cors : {
-            origin : "http://localhost:54678"
+            origin : "ws://localhost:*"
         }
     }
 })
