@@ -7,6 +7,9 @@ export default defineConfig({
         proxy : {
             '/a': 'http://localhost:8090',
             '/b': 'http://localhost:8090'
+        },
+        cors : {
+            origin : "http://localhost:54678"
         }
     }
 })
