@@ -1,3 +1,4 @@
+
 plugins {
 	java
 	id("org.springframework.boot") version "3.0.5"
@@ -20,6 +21,7 @@ dependencies {
 	implementation("org.springframework.security:spring-security-test")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
+
 
 tasks.withType<Test> {
 	useJUnitPlatform()
