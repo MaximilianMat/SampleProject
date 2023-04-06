@@ -1,6 +1,6 @@
 import './style.css'
-import { makeRequestA} from './scriptA.js'
-import { makeRequestB}   from './scriptB.js'
+import { makeRequestA} from './scriptA'
+import { makeRequestB}   from './scriptB'
 
 document.querySelector('#app').innerHTML = `
   <div class="container">
