@@ -17,11 +17,13 @@ public class SampleProjectApplication {
 
     @GetMapping("/a")
     public String returnA() {
-        return A.getValue();
+        A a = new A();
+        return a.getValue();
     }
 
     @GetMapping("/b")
     public String returnB() {
-        return B.getValue();
+        B b = new B();
+        return b.getValue();
     }
 }

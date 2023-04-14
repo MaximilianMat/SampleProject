@@ -2,7 +2,7 @@ package com.example.sub;
 
 public class B {
 
-    public static String getValue(){
+    public String getValue(){
         return "B";
     }
 }

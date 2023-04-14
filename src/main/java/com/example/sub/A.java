@@ -1,8 +1,7 @@
 package com.example.sub;
 
 public class A {
-
-    public static String getValue(){
+    public String getValue(){
         return "A";
     }
 }
