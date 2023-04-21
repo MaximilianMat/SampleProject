@@ -1,4 +1,4 @@
-package com.example.sub;
+package com.example.sampleproject.sub;
 
 public class A {
     public String getValue(){

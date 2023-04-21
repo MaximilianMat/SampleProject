@@ -1,7 +1,7 @@
 package com.example.sampleproject;
 
-import com.example.sub.A;
-import com.example.sub.B;
+import com.example.sampleproject.sub.A;
+import com.example.sampleproject.sub.B;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
